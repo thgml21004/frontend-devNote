@@ -9,3 +9,7 @@
 * [React](1/react.md)
 * [Testing Library](1/testing-library.md)
 * [Parcel & ESLint](1/parcel-and-eslint.md)
+
+## 주간회고 <a href="#weekmemo" id="weekmemo"></a>
+
+* [주간회고](weekmemo/undefined.md)
