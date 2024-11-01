@@ -14,7 +14,6 @@
 
 * [2주차](2/README.md)
   * [JSX](2/jsx.md)
-
-## 주간회고 <a href="#weekmemo" id="weekmemo"></a>
-
-* [주간회고](weekmemo/undefined.md)
+* [회고록](undefined/README.md)
+  * [1주차](undefined/1.md)
+  * [2주차](undefined/2.md)
