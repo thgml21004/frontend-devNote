@@ -16,6 +16,7 @@
   * [JSX](2/jsx.md)
 * [3주차](3/README.md)
   * [React Component](3/react-component.md)
+  * [React State](3/react-state.md)
 * [회고록](undefined/README.md)
   * [1주차](undefined/1.md)
   * [2주차](undefined/2.md)
