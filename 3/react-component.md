@@ -52,42 +52,35 @@ B/E에서 JSON 형태의 데이터를 돌려주는 API를 제공한다고 가정
 
 
 
-## 학습 키워드
+## react 코드 기록
 
-* REST API 란 무엇인가?
-  * 정의
-    * REST 기반으로 서비스 API를 구현한 것
-    * 클라이언트와 서버 간의 두 컴퓨터 시스템이 인터넷을 통해 정보를 안전하게 교환하기 위해 사용하는 인터페이스
-    * 웹 서비스가 어떻게 동작해야 하는지에 대한 아키텍쳐 스타일 또는 설계 원칙
-  * 설계규칙
-    * 명사를 사용 / 동사는 사용하지 않는다.
-    * 소문자 사용
-    * 하이픈(-)은 가독성 높이는데 사용
-    * 밑줄(\_)은 사용하지 않는다.
-    * 파일 확장자 적지 않기
-  * 장점
-    * HTTP 프로토콜을 사용함으로 웹 브라우저 호환 용이
-    * 독립적이고 확장성이 높다.
-    * 자원 기반으로 URL 직관적이고 구조화
-  * 단점
-    * 상태가 없는 프로토콜이므로 매 요청마다 인증 정보 필요
-    * 복잡한 작업을 다루기엔 적합하지 않음
-  * 특징
-    * 다양한 서비스에 많이 사용되고 있어 다른 시스템 간의 상호 작용을 위한 효율적인 방법 제공
-* GraphQL 란 무엇인가?
-* GraphQL은 왜 등장했는가?
-* REST API vs GraphQL
-* JSON
-* DSL(Domain-Specific Language)
-* 선언형 프로그래밍
-* 명령형 프로그래밍
-* SRP(단일 책임 원칙)
-* Atomic Design
-* React component 와 props
-* React state란?
-* DRY 원칙
-* SSOT(Single Source of Truth)
-* useState
-* 1급 객체(first-class object)란?
-* Lifting State Up
+### acc.includes?(product.category) ? add : \[...acc, product.category]
 
+```jsx
+const categories = products.reduce((acc, product) => (
+    acc.includes(product.category) ? acc : [...acc, product.category]
+), []);
+```
+
+`reduce` 메서드를 사용하여 `products` 배열에 있는 `product.category` 값들을 고유하게 추출하려는 것
+
+포함되어 있으면 `add`를 반환하고, 그렇지 않으면 `acc` 배열에 `product.category`를 추가한 새로운 배열을 반환합니다.
+
+#### 설명:
+
+1. `reduce` 함수는 누적값(`acc`)과 현재 항목(`product`)을 인수로 받습니다.
+2. `acc.includes(product.category)`는 `acc` 배열에 `product.category`가 포함되어 있는지 확인합니다.
+3. 포함되어 있다면 `acc`를 그대로 반환하고, 포함되어 있지 않다면 `[...acc, product.category]`로 `product.category`를 추가한 새로운 배열을 반환합니다.
+4. 최종적으로 `categories`는 `products` 배열에서 중복 없이 카테고리만 모아진 배열이 됩니다.
+
+### utils 폴더 생성
+
+'컴포넌트 나누는 기준이 애매하면 다시 하나의 컴포넌트로 합쳤다가(Inline Method) 다시 나눠줘도 됨.'의 예시?
+
+강의 58:39 강의 시청
+
+
+
+
+
+`2회차 강의 시청.. 컴포넌트 조금 이해하다가 중간에 utils 나오면서 모르겠다... types는 대략? 이해했는데 utils는 아직 인해가 안갔다.. utils를 다른 방식으로 코딩하면서 컴포넌트를 쪼개는 방법이 다양하다고 하는데 아직 배우는 입장에서는 그게 오히려 문제인것 같다 너무 다양해서 이해하는게 어렵다. 이해하게 된다면 유용하게 쓸 수 있을 것 같다. 아마도..?`
