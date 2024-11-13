@@ -23,6 +23,7 @@
   * [Fetch API & CORS](4-react-hooks/fetch-api-and-cors.md)
   * [React의 Hook](4-react-hooks/react-hook.md)
   * [useRef & Custom Hook](4-react-hooks/useref-and-custom-hook.md)
+  * [usehooks-ts](4-react-hooks/usehooks-ts.md)
   * [학습 키워드](4-react-hooks/undefined.md)
 * [회고록](undefined/README.md)
   * [1주차](undefined/1.md)
