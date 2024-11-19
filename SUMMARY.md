@@ -28,6 +28,8 @@
 * [5주차 - 테스트](5/README.md)
   * [TDD](5/tdd.md)
   * [React Testing Library](5/react-testing-library.md)
+  * [MSW](5/msw.md)
+  * [Playwright](5/playwright.md)
   * [학습 키워드](5/undefined.md)
 * [회고록](undefined/README.md)
   * [1주차](undefined/1.md)
