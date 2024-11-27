@@ -214,7 +214,7 @@
 * useEventListener
   * **DOM 이벤트**를 React 컴포넌트에서 간편하게 처리할 수 있도록 돕는 커스텀 훅
 * useLocalStorage
-  * **로컬 스토리지(LocalStorage)**를 **React 상태**처럼 쉽게 다룰수 있는 커스텀 훅
+  * **로컬 스토리지(LocalStorage)**&#xB97C; **React 상태**처럼 쉽게 다룰수 있는 커스텀 훅
   * localStorage를 활용하여 데이터를 저장하고 불러오는 과정을 React 상태 관리와 비슷한 방식으로 처리
   * 새로 고침 시에도 계속 유지 / 사용자 설정이나 임시 데이터를 저장할 때 사용
 * useDarkMode

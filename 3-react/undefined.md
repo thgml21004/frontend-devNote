@@ -66,7 +66,7 @@
 
 ## REST API vs GraphQL
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## JSON
 
@@ -114,7 +114,7 @@
 
 ## Atomic Design
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 화학적 관점에서 영감을 얻은 디자인 시스템 방법론
 * 작은 단위의 컴포넌트를 재사용성이 강하고, 단단하게 잘 설계함으로써 지속적으로 개발하기 용이
