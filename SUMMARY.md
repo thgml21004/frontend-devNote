@@ -49,6 +49,8 @@
   * [Style Basics](8-css-in-js/style-basics.md)
   * [CSS in JS](8-css-in-js/css-in-js.md)
   * [styled-components](8-css-in-js/styled-components.md)
+  * [props 와 attrs](8-css-in-js/props-attrs.md)
+  * [Global Style & Theme](8-css-in-js/global-style-and-theme.md)
   * [학습 키워드](8-css-in-js/undefined.md)
 * [회고록](undefined/README.md)
   * [1주차](undefined/1.md)
